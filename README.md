@@ -1,6 +1,6 @@
 # Linces-BJ — Hackatón Nacional de Innovación con IA Aplicada 2026 (UVM)
 
-**Equipo:** [NOMBRE DEL EQUIPO] | **Campus:** San Rafael | **Integrantes:** 3[cite: 24]
+**Equipo:** Linces BJ | **Campus:** San Rafael | **Integrantes:** 3
 
 ---
 
