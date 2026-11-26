@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#faf8ff;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 2rem);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-container": "#82f5c1", "primary": "#00288e", "primary-fixed": "#dde1ff", "surface-dim": "#d2d9f4", "on-tertiary-fixed-variant": "#6e3900", "inverse-primary": "#b8c4ff", "on-surface": "#131b2e", "on-error-container": "#93000a", "secondary": "#006c4a", "surface": "#faf8ff", "on-primary": "#ffffff", "tertiary-container": "#743d00", "surface-container-high": "#e2e7ff", "on-secondary-container": "#00714e", "secondary-fixed": "#85f8c4", "inverse-surface": "#283044", "on-primary-container": "#a8b8ff", "error": "#ba1a1a", "on-tertiary-fixed": "#2f1500", "primary-fixed-dim": "#b8c4ff", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "on-tertiary": "#ffffff", "on-background": "#131b2e", "surface-container-low": "#f2f3ff", "surface-tint": "#3755c3", "on-tertiary-container": "#ffa85d", "error-container": "#ffdad6", "tertiary-fixed-dim": "#ffb77d", "background": "#faf8ff", "on-primary-fixed": "#001453", "tertiary": "#532a00", "secondary-fixed-dim": "#68dba9", "on-primary-fixed-variant": "#173bab", "primary-container": "#1e40af", "on-error": "#ffffff", "inverse-on-surface": "#eef0ff", "outline": "#757684", "surface-container-highest": "#dae2fd", "on-secondary-fixed-variant": "#005137", "outline-variant": "#c4c5d5", "on-surface-variant": "#444653", "surface-bright": "#faf8ff", "surface-variant": "#dae2fd", "on-secondary-fixed": "#002114", "surface-container": "#eaedff", "tertiary-fixed": "#ffdcc3" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "margin-mobile": "1rem", "margin": "1.25rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "gutter": "1rem", "space-md": "1.25rem", "space-lg": "1.75rem" }, "fontFamily": { "display": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"] }, "fontSize": { "display": ["36px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-md": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-sm": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "body-sm": ["15px", { "lineHeight": "22px", "fontWeight": "500" }], "headline-md": ["22px", { "lineHeight": "32px", "fontWeight": "700" }], "label-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg": ["30px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-lg": ["18px", { "lineHeight": "24px", "fontWeight": "700" }], "headline-sm": ["19px", { "lineHeight": "28px", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-20 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Volver atrás" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors focus:ring-2 focus:ring-primary flex-shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Haz tu propio puente Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrDtZ0QY8wYmxXcbYSsyY4M4Gq7z0RlSlk3kzBlADCQxf31LuYdRNnOsl1GCRDMND5WH4IBRvX84xrq9w4bPhmiJ8W0yk1eATJQSV9BO4AmBPjFpe2edP0QJbMkbo4ibbZ46jxQpVF9Jyya6bolbFu4lPfpLcR5lau3iUWQdVcvNg--Ktk64syQEv8byS0cJDAkBA6f8ChsyxQaLW41osXLPS6aCDmA1lq8dnfjK4wQ4Sw"/><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-primary uppercase tracking-wider truncate">Haz tu propio puente</span><h1 class="font-headline-sm text-headline-sm text-on-surface truncate">Detalle De Beca</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Opciones de accesibilidad visual" class="h-11 px-space-xs rounded-full bg-surface-container flex items-center justify-center gap-1 text-on-surface hover:bg-surface-container-high transition-colors focus:ring-2 focus:ring-primary"><span class="material-symbols-outlined text-[20px] text-primary">format_size</span><span class="font-label-sm text-label-sm px-1 text-on-surface">ES</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full pb-6 px-margin">
+<!-- 1. BARRA SUPERIOR DE CONTEXTO DEL CHAT Y AJUSTES DE LECTURA -->
+<section class="w-full pt-space-xs pb-space-sm">
+<div class="bg-surface-container-low rounded-lg p-space-sm shadow-sm flex flex-col gap-space-xs">
+<!-- Estado de Asistente Cívico -->
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-3 h-3 rounded-full bg-secondary flex-shrink-0 animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface truncate">
+            Asistente Cívico Escrito
+          </span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container">
+          100% Por Escrito
+        </span>
+</div>
+<!-- Barra de Ajustes Inmediatos (Idioma y Nivel de Lenguaje) -->
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<!-- Selector Rápido de Idioma -->
+<button aria-label="Cambiar idioma del chat" class="min-h-[44px] px-3 py-1.5 rounded-full bg-surface-container-lowest text-primary hover:bg-surface-container-high transition-colors shadow-sm flex items-center gap-1.5 focus:outline-none" id="langToggleBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">translate</span>
+<span class="font-label-md text-label-md" id="langLabel">Español</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<!-- Toggle de Nivel de Complejidad -->
+<div aria-label="Modo de explicación" class="flex items-center bg-surface-container rounded-full p-1 shadow-inner" role="group">
+<button class="min-h-[40px] px-3 py-1 rounded-full bg-surface-container-lowest text-primary shadow-sm font-label-md text-label-md flex items-center gap-1 transition-all" id="modeEasy" type="button">
+<span class="material-symbols-outlined text-[16px]">auto_stories</span>
+<span>Sencillo</span>
+</button>
+<button class="min-h-[40px] px-3 py-1 rounded-full text-on-surface-variant font-label-md text-label-md flex items-center gap-1 transition-all hover:text-on-surface" id="modeDetailed" type="button">
+<span class="material-symbols-outlined text-[16px]">policy</span>
+<span>Detallado</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. FLUJO DE MENSAJES DE TEXTO ACCESIBLES -->
+<section aria-live="polite" class="flex flex-col gap-space-md my-space-xs" id="chatStream">
+<!-- Mensaje del Usuario -->
+<div class="flex justify-end w-full">
+<div class="max-w-[88%] bg-primary text-on-primary rounded-t-lg rounded-bl-lg rounded-br-xs p-space-md shadow-md">
+<p class="font-label-sm text-label-sm text-primary-fixed mb-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">account_circle</span>
+          Tú preguntaste:
+        </p>
+<p class="font-body-lg text-body-lg font-medium leading-relaxed">
+          Hola, quiero saber si puedo pedir la beca para la universidad de mi hijo si trabajo a tiempo parcial.
+        </p>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim text-right block mt-2">10:42 h</span>
+</div>
+</div>
+<!-- Respuesta del Asistente Cívico -->
+<div class="flex flex-col gap-space-xs w-full">
+<!-- Identificador de mensaje del sistema -->
+<div class="flex items-center gap-1 text-on-surface-variant pl-1">
+<span class="material-symbols-outlined text-[18px] text-primary">verified_user</span>
+<span class="font-label-sm text-label-sm font-semibold">Respuesta accesible oficial</span>
+</div>
+<!-- Burbuja / Tarjeta estructurada -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-lg shadow-md transition-all" id="assistantCard">
+<!-- Saludo e introducción clara -->
+<div class="p-space-sm rounded-DEFAULT bg-secondary-container/30 mb-space-sm">
+<p class="font-headline-sm text-headline-sm text-on-secondary-container font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[24px] text-secondary">check_circle</span>
+            ¡Hola! Sí, por supuesto puedes solicitarla.
+          </p>
+<p class="font-body-md text-body-md text-on-surface mt-1">
+            Tu contrato o trabajo a tiempo parcial <strong>no te excluye</strong> de este derecho.
+          </p>
+</div>
+<!-- Encabezado de puntos -->
+<h2 class="font-label-lg text-label-lg text-primary mb-space-xs">
+          Aquí tienes los 3 puntos clave explicados de forma fácil:
+        </h2>
+<!-- Lista numerada de alto contraste y gran legibilidad -->
+<ol class="space-y-space-sm my-space-sm" role="list">
+<!-- Punto 1 -->
+<li class="flex items-start gap-space-sm p-space-sm rounded-DEFAULT bg-surface-container-low">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center flex-shrink-0 shadow-sm">
+              1
+            </span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-bold">Ingresos del hogar:</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Lo que cuenta son los ingresos totales del hogar del año pasado, no cuántas horas trabajas ahora.
+              </p>
+</div>
+</li>
+<!-- Punto 2 -->
+<li class="flex items-start gap-space-sm p-space-sm rounded-DEFAULT bg-surface-container-low">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center flex-shrink-0 shadow-sm">
+              2
+            </span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-bold">Matrícula gratuita garantizada:</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Si superas por poco el límite de ingresos para recibir dinero directo, todavía puedes recibir la ayuda de matrícula gratuita.
+              </p>
+</div>
+</li>
+<!-- Punto 3 -->
+<li class="flex items-start gap-space-sm p-space-sm rounded-DEFAULT bg-surface-container-low">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center flex-shrink-0 shadow-sm">
+              3
+            </span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-bold">Fecha límite importante:</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                El plazo oficial termina el <strong>15 de mayo de 2025</strong> a las 23:59 h.
+              </p>
+</div>
+</li>
+</ol>
+<!-- Bloque Interactivo de Acciones Directas en la Respuesta -->
+<div class="pt-space-sm flex flex-col gap-space-xs">
+<button class="w-full min-h-[56px] px-space-md py-3 rounded-DEFAULT bg-surface-container text-primary font-label-lg text-label-lg text-left flex items-center justify-between hover:bg-surface-container-high transition-colors shadow-sm" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">checklist</span>
+<span>Ver requisitos en 3 pasos sencillos</span>
+</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+<button class="w-full min-h-[56px] px-space-md py-3 rounded-DEFAULT bg-surface-container text-primary font-label-lg text-label-lg text-left flex items-center justify-between hover:bg-surface-container-high transition-colors shadow-sm" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">calculate</span>
+<span>Simular si cumplo los ingresos</span>
+</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center justify-between pt-space-sm text-on-surface-variant">
+<span class="font-label-sm text-label-sm">¿Te resultó comprensible esta respuesta?</span>
+<div class="flex items-center gap-1">
+<button aria-label="Sí, respuesta comprensible" class="w-10 h-10 rounded-full hover:bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">thumb_up</span>
+</button>
+<button aria-label="No, necesito más claridad" class="w-10 h-10 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">thumb_down</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. ACCIONES RÁPIDAS DE PREGUNTAS SUGERIDAS (Chips Táctiles Grandes) -->
+<section aria-label="Preguntas recomendadas" class="w-full my-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-1.5 px-1">
+<span class="material-symbols-outlined text-[18px] text-tertiary">lightbulb</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">
+        Preguntas rápidas de un toque
+      </span>
+</div>
+<!-- Chips en formato lista vertical de fácil alcance táctil -->
+<div class="flex flex-col gap-2">
+<button class="w-full min-h-[52px] text-left px-space-md py-3 rounded-DEFAULT bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-md text-label-md shadow-sm flex items-center justify-between transition-colors" onclick="insertQuestion('¿Qué papeles tengo que presentar?')" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">description</span>
+<span>¿Qué papeles tengo que presentar?</span>
+</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">add_circle</span>
+</button>
+<button class="w-full min-h-[52px] text-left px-space-md py-3 rounded-DEFAULT bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-md text-label-md shadow-sm flex items-center justify-between transition-colors" onclick="insertQuestion('¿Cómo consigo el certificado digital?')" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">badge</span>
+<span>¿Cómo consigo el certificado digital?</span>
+</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">add_circle</span>
+</button>
+<button class="w-full min-h-[52px] text-left px-space-md py-3 rounded-DEFAULT bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-md text-label-md shadow-sm flex items-center justify-between transition-colors" onclick="insertQuestion('Explicármelo con más detalle legal')" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[20px]">gavel</span>
+<span>Explicármelo con más detalle legal</span>
+</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">add_circle</span>
+</button>
+</div>
+</section>
+<!-- 4. ZONA DE ENTRADA DE TEXTO ACCESIBLE INFERIOR -->
+<section class="w-full mt-space-xs sticky bottom-2 z-20">
+<div class="bg-surface-container-lowest rounded-lg p-space-sm shadow-xl flex flex-col gap-space-xs">
+<!-- Controles de Accesibilidad Tipográfica (+A / -A) -->
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+          Escribe tu consulta por teclado
+        </span>
+<!-- Botones de aumento accesible de texto -->
+<div aria-label="Ajustar tamaño de letra" class="flex items-center bg-surface-container rounded-full px-1 py-0.5" role="group">
+<button aria-label="Reducir tamaño del texto" class="w-8 h-8 rounded-full flex items-center justify-center font-label-md text-label-md text-on-surface hover:bg-surface-container-high transition-colors" id="btnTextDec" type="button">
+            A-
+          </button>
+<span class="w-px h-4 bg-outline-variant mx-1"></span>
+<button aria-label="Aumentar tamaño del texto" class="w-8 h-8 rounded-full flex items-center justify-center font-label-lg text-label-lg font-bold text-primary hover:bg-surface-container-high transition-colors" id="btnTextInc" type="button">
+            A+
+          </button>
+</div>
+</div>
+<!-- Barra de Redacción y Envío -->
+<form class="flex items-end gap-space-xs w-full" id="chatForm" onsubmit="handleSend(event)">
+<!-- Campo de entrada amplio y legible -->
+<div class="flex-1 min-w-0">
+<label class="sr-only" for="queryInput">Escribe tu duda aquí con tus propias palabras</label>
+<textarea class="w-full min-h-[58px] max-h-36 p-space-sm rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none placeholder:text-on-surface-variant resize-none transition-all shadow-inner" id="queryInput" placeholder="Escribe tu duda aquí con tus propias palabras..." rows="2"></textarea>
+</div>
+<!-- Botón de Envío Grande Táctil (Sin Micrófono/Audio por directriz de accesibilidad estructurada) -->
+<button aria-label="Enviar mensaje escrito" class="w-14 h-14 min-w-[56px] min-h-[56px] rounded-DEFAULT bg-primary text-on-primary flex items-center justify-center shadow-md hover:bg-primary-container active:scale-95 transition-all flex-shrink-0 focus:outline-none" id="sendButton" type="submit">
+<span class="material-symbols-outlined text-[28px]">send</span>
+</button>
+</form>
+<!-- Nota de Privacidad y Claridad Cívica -->
+<p class="font-label-sm text-label-sm text-on-surface-variant text-center pt-0.5">
+        Canal escrito seguro • No compartas claves bancarias ni contraseñas.
+      </p>
+</div>
+</section>
+</div>
+<script>
+  // Control de Modo Explicación (Sencillo vs Detallado)
+  const modeEasy = document.getElementById('modeEasy');
+  const modeDetailed = document.getElementById('modeDetailed');
+  const assistantCard = document.getElementById('assistantCard');
+
+  modeEasy.addEventListener('click', () => {
+    modeEasy.className = 'min-h-[40px] px-3 py-1 rounded-full bg-surface-container-lowest text-primary shadow-sm font-label-md text-label-md flex items-center gap-1 transition-all';
+    modeDetailed.className = 'min-h-[40px] px-3 py-1 rounded-full text-on-surface-variant font-label-md text-label-md flex items-center gap-1 transition-all hover:text-on-surface';
+  });
+
+  modeDetailed.addEventListener('click', () => {
+    modeDetailed.className = 'min-h-[40px] px-3 py-1 rounded-full bg-surface-container-lowest text-primary shadow-sm font-label-md text-label-md flex items-center gap-1 transition-all';
+    modeEasy.className = 'min-h-[40px] px-3 py-1 rounded-full text-on-surface-variant font-label-md text-label-md flex items-center gap-1 transition-all hover:text-on-surface';
+  });
+
+  // Selector de Idioma Rápido
+  const langToggleBtn = document.getElementById('langToggleBtn');
+  const langLabel = document.getElementById('langLabel');
+  const languages = ['Español', 'Català', 'Galego', 'Euskara', 'English'];
+  let currentLangIdx = 0;
+
+  langToggleBtn.addEventListener('click', () => {
+    currentLangIdx = (currentLangIdx + 1) % languages.length;
+    langLabel.textContent = languages[currentLangIdx];
+  });
+
+  // Función para rellenar chips sugeridos en el campo
+  function insertQuestion(text) {
+    const input = document.getElementById('queryInput');
+    input.value = text;
+    input.focus();
+  }
+
+  // Ajuste de Accesibilidad Tipográfica en el Stream
+  const btnInc = document.getElementById('btnTextInc');
+  const btnDec = document.getElementById('btnTextDec');
+  let currentScale = 1;
+
+  btnInc.addEventListener('click', () => {
+    if (currentScale < 1.3) {
+      currentScale += 0.1;
+      document.getElementById('chatStream').style.transform = `scale(${currentScale})`;
+      document.getElementById('chatStream').style.transformOrigin = 'top center';
+    }
+  });
+
+  btnDec.addEventListener('click', () => {
+    if (currentScale > 0.95) {
+      currentScale -= 0.1;
+      document.getElementById('chatStream').style.transform = `scale(${currentScale})`;
+      document.getElementById('chatStream').style.transformOrigin = 'top center';
+    }
+  });
+
+  // Manejo de envío accesible
+  function handleSend(event) {
+    event.preventDefault();
+    const input = document.getElementById('queryInput');
+    const val = input.value.trim();
+    if (!val) return;
+
+    const stream = document.getElementById('chatStream');
+
+    // Burbuja nueva de usuario
+    const userMsg = document.createElement('div');
+    userMsg.className = 'flex justify-end w-full animate-fade-in';
+    userMsg.innerHTML = `
+      <div class="max-w-[88%] bg-primary text-on-primary rounded-t-lg rounded-bl-lg rounded-br-xs p-space-md shadow-md">
+        <p class="font-label-sm text-label-sm text-primary-fixed mb-1 flex items-center gap-1">
+          <span class="material-symbols-outlined text-[16px]">account_circle</span>
+          Tú preguntaste:
+        </p>
+        <p class="font-body-lg text-body-lg font-medium leading-relaxed">${escapeHtml(val)}</p>
+        <span class="font-label-sm text-label-sm text-primary-fixed-dim text-right block mt-2">Ahora</span>
+      </div>
+    `;
+    stream.appendChild(userMsg);
+    input.value = '';
+
+    // Respuesta simulada accesible
+    setTimeout(() => {
+      const resp = document.createElement('div');
+      resp.className = 'flex flex-col gap-space-xs w-full';
+      resp.innerHTML = `
+        <div class="flex items-center gap-1 text-on-surface-variant pl-1">
+          <span class="material-symbols-outlined text-[18px] text-primary">verified_user</span>
+          <span class="font-label-sm text-label-sm font-semibold">Respuesta accesible oficial</span>
+        </div>
+        <div class="w-full bg-surface-container-lowest rounded-lg p-space-lg shadow-md">
+          <p class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">
+            Entendido. Hemos consultado las bases oficiales.
+          </p>
+          <p class="font-body-md text-body-md text-on-surface-variant">
+            Para tu caso específico, el sistema requiere únicamente tu DNI/NIE y la declaración de la renta más reciente. Todo el cruce de datos se hace automáticamente entre administraciones.
+          </p>
+        </div>
+      `;
+      stream.appendChild(resp);
+      resp.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    }, 600);
+  }
+
+  function escapeHtml(string) {
+    return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+      return ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;',
+        '/': '&#x2F;'
+      })[s];
+    });
+  }
+</script></main></body></html>
