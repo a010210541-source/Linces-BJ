@@ -5,7 +5,7 @@
 ---
 
 ## 1. Resumen Ejecutivo
-**PuenteClaro** es una aplicación móvil inclusiva diseñada para acercar becas, trámites y orientaciones de servicios esenciales a personas en situación de desventaja, estudiantes de primera generación o usuarios con barreras de idioma y lenguaje técnico. Mediante un asistente guiado por chat y voz adaptado al nivel de lectura del usuario, la app traduce procesos complejos en pasos claros y accionables. Su innovación radica en combinar accesibilidad multimodal (lectura clara, voz e idioma adaptable) con guías personalizadas impulsadas por Gemini para reducir la exclusión por desinformación.
+**Haz Tu Propio Puente** es una aplicación móvil inclusiva diseñada para acercar becas, trámites y orientaciones de servicios esenciales a personas en situación de desventaja, estudiantes de primera generación o usuarios con barreras de idioma y lenguaje técnico. Mediante un asistente guiado por chat y voz adaptado al nivel de lectura del usuario, la app traduce procesos complejos en pasos claros y accionables. Su innovación radica en combinar accesibilidad multimodal (lectura clara, voz e idioma adaptable) con guías personalizadas impulsadas por Gemini para reducir la exclusión por desinformación.
 
 ## 2. Boceto y Concepto
 * **Problemática (ODS 10 y ODS 11):** La información oficial sobre becas, trámites y servicios suele estar dispersa, ser extensa o redactada en lenguaje técnico/burocrático poco accesible, lo que excluye a poblaciones vulnerables (ODS 10) y dificulta el acceso equitativo a servicios y recursos comunitarios (ODS 11).
