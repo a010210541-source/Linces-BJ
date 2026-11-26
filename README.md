@@ -13,13 +13,13 @@
 * **Enlace al boceto / diseño (Fase 2):** [PENDIENTE]
 
 ## 3. Documentación Funcional
-* [PENDIENTE — Lista de 3 a 5 funciones clave y qué hace cada una.][cite: 20]
+* [PENDIENTE — Lista de 3 a 5 funciones clave y qué hace cada una.]
 
 ## 4. Documentación Técnica
 * **Arquitectura general:** [PENDIENTE]
 * **Stack tecnológico:** Google Gemini (API/SDK), Google AI Studio, Google Stitch, Python / [PENDIENTE], GitHub, Google Workspace.
 * **Integración de Gemini:** [PENDIENTE — En qué parte de la app se usa y qué procesa.]
-* **Enlace a la app demostrable / demo (Fase 3):** [PENDIENTE][cite: 9, 20, 23]
+* **Enlace a la app demostrable / demo (Fase 3):** [PENDIENTE]
 
 ## 5. Manual de Usuario
 [PENDIENTE — Guía paso a paso sin tecnicismos para acceder y usar la app por primera vez.][cite: 20]
@@ -31,7 +31,7 @@
 ---
 
 ## Declaración de Uso de Inteligencia Artificial Generativa
-En cumplimiento con las Bases Generales del Hackatón Nacional de Innovación con IA Aplicada 2026, declaramos de forma transparente las herramientas de IA utilizadas durante el desarrollo[cite: 10, 14]:
+En cumplimiento con las Bases Generales del Hackatón Nacional de Innovación con IA Aplicada 2026, declaramos de forma transparente las herramientas de IA utilizadas durante el desarrollo:
 
 | Etapa / Componente | Herramienta de IA Utilizada | Descripción del uso / asistencia |
 | :--- | :--- | :--- |
@@ -39,9 +39,9 @@ En cumplimiento con las Bases Generales del Hackatón Nacional de Innovación co
 | Bocetado de interfaz (UI/UX) | Google Stitch | [PENDIENTE] |
 | Prototipado y lógica central de IA | Google AI Studio / API de Gemini | [PENDIENTE] |
 | Generación y depuración de código | Google Gemini (Cuenta Institucional UVM) | [PENDIENTE] |
-| Documentación técnica y manual | Google Gemini (Cuenta Institucional UVM) | [PENDIENTE][cite: 9, 10, 13] |
+| Documentación técnica y manual | Google Gemini (Cuenta Institucional UVM) | [PENDIENTE]|
 
 ---
 
 ## Enlaces de Entrega
-* **Video Pitch (5 min — Fase 4):** [PENDIENTE][cite: 23]
+* **Video Pitch (5 min — Fase 4):** [PENDIENTE]
