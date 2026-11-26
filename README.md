@@ -9,7 +9,7 @@ Asistente conversacional 100 % por texto y chat diseñado para orientar paso a p
 - **Repositorio en GitHub:** `https://github.com/a010210541-source/Linces-BJ`
 - **Carpeta de documentación y bocetos:** `https://github.com/a010210541-source/Linces-BJ/tree/main/docs`
 - **Proyecto en Google Stitch:** `https://stitch.google.com/projects/15289391016942737046`
-- **Video del pitch (5 min):** *(Pega aquí el enlace de YouTube o Drive del pitch final)*
+- **Video del pitch (5 min):** *https://youtu.be/iORAhP2EmpE*
 
 ---
 
