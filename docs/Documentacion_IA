@@ -1,0 +1,18 @@
+# Documentación de Boceto e IA — Haz tu propio puente
+
+**Equipo:** Linces-BJ | **Campus:** UVM San Rafael | **Reto:** Reto 1 · Puentes de oportunidad (ODS 10 / ODS 11)
+
+## 1. Pantallas del Boceto (Solo Chat)
+* **Inicio / Consulta:** Permite elegir idioma y nivel de lectura (*Lenguaje sencillo / cotidiano* vs. *Explicación detallada*), entrar al chat por escrito y ver accesos rápidos a trámites[cite: 6, 7].
+* **Guías Rápidas:** Permite buscar por palabras cotidianas, filtrar por categoría y revisar tarjetas con requisitos básicos y pasos en lenguaje claro[cite: 8, 9].
+* **Chat de Consulta y Orientación:** Conversación 100 % escrita con puntos numerados, preguntas rápidas de un toque, cambio entre explicación sencilla y detallada, y controles de tamaño de letra (`A-` / `A+`)[cite: 10, 11].
+* **Checklist / Seguimiento:** Muestra pasos y documentos accionables en formato claro y fácil de leer.
+
+## 2. Accesibilidad
+* Interacción enfocada exclusivamente en texto y chat (sin funciones ni botones de voz)[cite: 5, 10].
+* Textos breves, estructura clara, botones táctiles amplios y ajuste de tamaño de fuente/nivel de lectura[cite: 5, 10].
+
+## 3. Integración con Google Gemini
+* **Simplificación y traducción:** Explica convocatorias, requisitos o textos oficiales en lenguaje cotidiano o detallado y en el idioma elegido.
+* **Orientación y elegibilidad:** Hace preguntas breves en el chat para ayudar a revisar requisitos básicos.
+* **Checklist accionable:** Genera listas claras de documentos y pasos a seguir.
