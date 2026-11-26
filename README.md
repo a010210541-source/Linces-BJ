@@ -26,7 +26,7 @@
 
 ## 6. Accesibilidad e Impacto
 * **Características de inclusión y accesibilidad:** [PENDIENTE]
-* **Impacto social esperado (ODS 10 y 11):** [PENDIENTE][cite: 20, 23]
+* **Impacto social esperado (ODS 10 y 11):** [PENDIENTE]
 
 ---
 
