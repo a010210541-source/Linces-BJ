@@ -5,7 +5,7 @@
 ---
 
 ## 1. Resumen Ejecutivo
-**Haz Tu Propio Puente** es una aplicación móvil inclusiva diseñada para acercar becas, trámites y orientaciones de servicios esenciales a personas en situación de desventaja, estudiantes de primera generación o usuarios con barreras de idioma y lenguaje técnico. Mediante un asistente guiado por chat y voz adaptado al nivel de lectura del usuario, la app traduce procesos complejos en pasos claros y accionables. Su innovación radica en combinar accesibilidad multimodal (lectura clara, voz e idioma adaptable) con guías personalizadas impulsadas por Gemini para reducir la exclusión por desinformación.
+**Haz Tu Ptopio Puente** es una aplicación móvil inclusiva diseñada para acercar becas, trámites y orientaciones de servicios esenciales a personas en situación de desventaja, estudiantes de primera generación o usuarios con barreras de idioma y lenguaje técnico. Mediante un asistente guiado por chat y voz adaptado al nivel de lectura del usuario, la app traduce procesos complejos en pasos claros y accionables. Su innovación radica en combinar accesibilidad multimodal (lectura clara, voz e idioma adaptable) con guías personalizadas impulsadas por Gemini para reducir la exclusión por desinformación.
 
 ## 2. Boceto y Concepto
 * **Problemática (ODS 10 y ODS 11):** La información oficial sobre becas, trámites y servicios suele estar dispersa, ser extensa o redactada en lenguaje técnico/burocrático poco accesible, lo que excluye a poblaciones vulnerables (ODS 10) y dificulta el acceso equitativo a servicios y recursos comunitarios (ODS 11).
@@ -13,7 +13,7 @@
 * **Enlace al boceto / diseño (Fase 2):** [PENDIENTE]
 
 ## 3. Documentación Funcional
-* **Selector de accesibilidad:** [PENDIENTE — Idioma y nivel de lectura.]
+* **Selector de accesibilidad:** [PENDIENTE — Configuración de idioma y nivel de lectura.]
 * **Asistente guiado (chat y voz):** [PENDIENTE — Preguntas breves y orientación paso a paso.]
 * **Simplificador de convocatorias y trámites:** [PENDIENTE — Explicación en lenguaje claro.]
 * **Checklist personalizado:** [PENDIENTE — Lista de requisitos y pasos accionables.]
@@ -39,13 +39,14 @@ En cumplimiento con las Bases Generales del Hackatón Nacional de Innovación co
 
 | Etapa / Componente | Herramienta de IA Utilizada | Descripción del uso / asistencia |
 | :--- | :--- | :--- |
-| Ideación y arquitectura | Google Gemini | Estructuración inicial de la propuesta para el Reto 1 y definición del flujo de la app. |
+| Ideación y arquitectura | Google Gemini | Definición de la propuesta *PuenteClaro* para el Reto 1, estructura de carpetas del repositorio y plan de trabajo por fases. |
 | Bocetado de interfaz (UI/UX) | Google Stitch | [PENDIENTE] |
-| Prototipado y lógica central de IA | Google AI Studio / API de Gemini | [PENDIENTE] |
+| Prototipado y lógica central de IA | Google AI Studio / API de Gemini | Obtención de clave de API en entorno local y preparación de pruebas iniciales. |
 | Generación y depuración de código | Google Gemini | [PENDIENTE] |
-| Documentación técnica y manual | Google Gemini | Redacción y organización de la documentación del proyecto. |
+| Documentación técnica y manual | Google Gemini | Redacción y estructuración inicial del `README.md` y borrador de propuesta. |
 
 ---
 
 ## Enlaces de Entrega
+* **Repositorio GitHub:** https://github.com/a010210541-source/Linces-BJ
 * **Video Pitch (5 min — Fase 4):** [PENDIENTE]
