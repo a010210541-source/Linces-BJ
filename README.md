@@ -1,55 +1,51 @@
-# Haz tu propio puente — Hackatón Nacional de Innovación con IA Aplicada 2026 (UVM)
+# Haz tu propio puente — Fase 3 (MVP)
 
-**Equipo:** Linces-BJ | **Campus:** San Rafael | **Integrantes:** 3 (Carlos Sebastián Martínez Torres, Julio Cesar Martinez Solis, Gabriel Eduardo Ornelas Vargas)
+Asistente conversacional 100 % por texto y chat diseñado para orientar paso a paso a estudiantes, familias y personas en situación de vulnerabilidad o con barreras de acceso sobre **becas, trámites escolares, servicios de salud y apoyos públicos**.
 
----
-
-## 1. Resumen Ejecutivo
-**Haz tu propio puente** es una aplicación móvil inclusiva diseñada para acercar becas, trámites escolares, servicios de salud y apoyos gubernamentales a personas en situación de desventaja, estudiantes de primera generación, adultos mayores, migrantes o usuarios con barreras de idioma, conectividad o lenguaje técnico. Mediante un asistente guiado por chat adaptado al nivel de lectura del usuario, la app traduce procesos complejos en pasos claros y accionables. Su innovación radica en combinar accesibilidad por texto (lectura clara, lenguaje cotidiano e idioma adaptable) con guías personalizadas impulsadas por Gemini para reducir la exclusión por desinformación.
-
-## 2. Boceto y Concepto
-* **Reto:** Reto 1 · Puentes de oportunidad — Reducción de la brecha de acceso.
-* **Problemática (ODS 10 y ODS 11):** La información oficial sobre becas, trámites y servicios suele estar dispersa, ser extensa y utilizar lenguaje técnico o burocrático difícil de comprender, lo que excluye a poblaciones vulnerables (ODS 10) y dificulta el acceso equitativo a servicios, trámites y recursos comunitarios (ODS 11).
-* **Usuario objetivo:** Estudiantes de primera generación, jóvenes y adultos en situación de desventaja, adultos mayores y personas con barreras de comprensión lectora, idioma o baja conectividad.
-* **Propuesta de solución:** Una aplicación móvil con asistente por chat que adapta el nivel de lectura e idioma, explica requisitos en términos sencillos y genera una guía paso a paso para completar el proceso.
-
-## 3. Documentación Funcional
-* **Selector de accesibilidad:** Configuración de idioma preferido y nivel de lectura (básico/cotidiano o detallado).
-* **Asistente guiado por chat:** Interacción mediante preguntas breves y orientación paso a paso para verificar elegibilidad básica.
-* **Simplificador de convocatorias y trámites:** Reescritura de textos complejos o requisitos pegados/seleccionados en lenguaje claro y cotidiano.
-* **Checklist personalizado:** Generación de listas de verificación accionables de documentos y pasos a seguir.
-* **Formato de lectura accesible:** Respuestas breves, estructuradas y fáciles de leer sin tecnicismos.
-
-## 4. Documentación Técnica
-* **Arquitectura general:** Flujo de interfaz móvil conectada a la API de Google Gemini para procesamiento de lenguaje, simplificación por perfil/nivel de lectura y generación de guías/checklists, manteniendo las credenciales en entorno local seguro (`.env` ignorado por Git).
-* **Stack tecnológico:** Google Gemini (API/SDK), Google AI Studio, Google Stitch, Python, GitHub, Google Workspace.
-* **Integración de Gemini:** Gemini actúa como motor conversacional, traductor y adaptador cognitivo: simplifica requisitos o convocatorias según el nivel de lectura e idioma del usuario, guía la conversación para verificar elegibilidad básica y genera checklists paso a paso en un formato claro y legible.
-
-## 5. Manual de Usuario
-Guía paso a paso para usar **Haz tu propio puente**:
-1. Abre la aplicación y selecciona tu idioma y nivel de lectura o modo de accesibilidad.
-2. Elige un trámite, beca o servicio en el chat, o pega el texto de una convocatoria/requisito que quieras entender.
-3. Responde las preguntas breves del asistente en el chat para revisar tu elegibilidad básica.
-4. Lee la explicación en lenguaje sencillo y sigue tu checklist de pasos y documentos.
-
-## 6. Accesibilidad e Impacto
-* **Características de inclusión y accesibilidad:** Lenguaje sencillo adaptable al nivel de lectura, soporte de idioma, interacción por chat en lenguaje sencillo, respuestas cortas y fáciles de leer, y estructura pensada para baja familiaridad digital o conectividad limitada.
-* **Impacto social esperado (ODS 10 y ODS 11):** Reduce las barreras burocráticas y de información para que más personas accedan a becas, apoyos y servicios a los que califican (ODS 10), y facilita el aprovechamiento de servicios públicos y trámites locales evitando traslados innecesarios o confusiones (ODS 11).
+- **Hackatón:** Hackatón Nacional de Innovación con IA Aplicada · Ingenio Incluyente — UVM 2026
+- **Equipo:** Linces-BJ (`UVM Campus San Rafael`)
+- **Integrantes:** Carlos Sebastián Martínez Torres (Líder), Gabriel Eduardo Ornelas Vargas, Julio César Martínez Solís
+- **Reto:** Reto 1 · Puentes de oportunidad — Reducción de la brecha de acceso (ODS 10 y ODS 11)
+- **Repositorio:** `https://github.com/a010210541-source/Linces-BJ`
+- **Referencia visual (Fase 2 — Google Stitch):** `https://stitch.google.com/projects/15289391016942737046`
 
 ---
 
-## Declaración de Uso de Inteligencia Artificial Generativa
-En cumplimiento con las Bases Generales del Hackatón Nacional de Innovación con IA Aplicada 2026, declaramos de forma transparente las herramientas de IA utilizadas durante el desarrollo:
+## App demostrable
 
-| Etapa / Componente | Herramienta de IA Utilizada | Descripción del uso / asistencia |
-| :--- | :--- | :--- |
-| Ideación y arquitectura | Google Gemini | Definición de la propuesta *Haz tu propio puente* para el Reto 1, estructura de carpetas del repositorio y plan de trabajo por fases. |
-| Bocetado de interfaz (UI/UX) | Google Stitch | Diseño de pantallas y flujos visuales de la aplicación. |
-| Prototipado y lógica central de IA | Google AI Studio / API de Gemini | Configuración de clave de API en entorno local y pruebas/lógica de simplificación, elegibilidad y checklists. |
-| Generación y depuración de código | Google Gemini | Apoyo en estructuración, escritura y ajuste de código del prototipo. |
-| Documentación técnica y manual | Google Gemini | Redacción y organización del `README.md`, propuesta inicial y documentación del proyecto. |
+- **URL de demo desplegada:** *(Agrega aquí el enlace público de tu app si ya está alojada en línea, o indica que la demostración se ejecuta en local)*
+- **Entorno local por defecto:** `http://127.0.0.1:5000` (configurable a `0.0.0.0` para pruebas en red local)
 
 ---
 
-## Enlaces de Entrega
-* **Repositorio GitHub:** https://github.com/a010210541-source/Linces-BJ
+## Funcionalidades del MVP (Fase 3)
+
+- **Asistente 100 % por chat de texto:** Interfaz web sencilla enfocada en claridad, privacidad y control del usuario, sin depender de funciones de voz.
+- **Selector de idioma:** Cambio dinámico entre **Español** y **English**.
+- **Selector de nivel de lectura:** Alterna entre **Lenguaje sencillo / cotidiano** y **Explicación detallada** según lo que necesite la persona.
+- **Guía paso a paso y checklists:** Ayuda a identificar requisitos básicos, pasos generales de un trámite y documentos frecuentes.
+
+---
+
+## Arquitectura y Resiliencia
+
+El backend está desarrollado en **Python (Flask)** utilizando el SDK oficial **`google-genai`** y variables de entorno cargadas desde `.env` (protegido por `.gitignore`, con `.env.example` como plantilla):
+
+1. **Límite de tiempo de espera (`timeout`):** El cliente se configura con `timeout=12000` (12 segundos) para evitar esperas indefinidas.
+2. **Cascada de modelos:** Intenta primero **`gemini-3.8-flash`** y, ante fallos o indisponibilidad, pasa a **`gemini-3.5-flash-lite`**.
+3. **Manejo de errores HTTP (`503`, `504`, `404`):** Captura errores de alta demanda (`503 UNAVAILABLE`), tiempo agotado (`504 DEADLINE_EXCEEDED`) o modelo no encontrado (`404 NOT_FOUND`) sin tumbar el servidor.
+4. **Guía estática de respaldo:** Si los modelos no responden, entrega una guía estructurada de respaldo manteniendo continuidad en la conversación.
+
+---
+
+## Estructura del proyecto
+
+```text
+Linces-BJ/
+├── .env.example
+├── .gitignore
+├── README.md
+└── src/
+    ├── app.py
+    ├── prompts.py
+    └── requirements.txt
